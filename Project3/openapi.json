@@ -1,0 +1,19 @@
+{
+	"openapi" : "3.0.2",
+	"servers" : [
+		{
+			"url" : "/api/v1"
+		},
+		{
+			"url": "http://127.0.0.1:5301",
+			"description":"Second Instance"
+		},
+		{
+			"url": "http://127.0.0.1:5302",
+			"description":"Third Instance"
+		}
+	],
+	"paths" : {
+		}
+}
+			
